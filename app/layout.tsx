@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider, SignIn, SignedOut } from "@clerk/nextjs";
 import { SignUp } from "@clerk/nextjs";
 import { SignedIn } from "@clerk/nextjs";
 import NavBar from "@/components/NavBar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

@@ -4,7 +4,7 @@ import { UserButton } from "@clerk/nextjs";
 
 function NavBar() {
   return (
-    <div className="hidden md:flex item-center justify-around py-3 shadow-md border-b-[1px]">
+    <div className="hidden md:flex item-center justify-around py-3 shadow-md border-b-[1px] bg-white">
       <Image src="./next.svg" alt="logo" width={100} height={150} />
 
       <div className="flex gap-5">
